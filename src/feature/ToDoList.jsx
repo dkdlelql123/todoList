@@ -8,7 +8,7 @@ const ToDoList = ({ todos, btnDeleteToDoList, btnchangeToDoList }) => {
           할일을 작성해주세요.
         </h3>
       )}
-      <ul className="flex flex-col-reverse items-center mt-8">
+      <ul className="flex flex-col-reverse items-center mt-8 gap-6 md:max-w-[400px] md:mx-auto md:gap-4">
         {todos.map((todo, i) => (
           <ToDoItem
             key={i}
